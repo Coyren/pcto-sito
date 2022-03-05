@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=it>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="prova.css" type="text/css" />
+    <title>Prova JS</title>
+</head>
+
+<body>
+    <p>grafico</p>
+    <nav>
+        <img id="graph" name="graph" src="img\tip1\1\img1.png" />
+        <hr />
+        <div class="gf">
+            <div class="gd">
+                <p>grandezza grafico</p>
+                <select id="dim" name="dim">
+                <option value="1">giornaliero</option>
+                <option value="2">settimanale</option>
+                <option value="3">mensile</option>
+            </select>
+            </div>
+            <div class="tp">
+                <p>tipo di grafico</p>
+                <select id="tipe" name="tipe">
+                <option value="1">Temperatura</option>
+                <option value="2">Umidita'</option>
+                <option value="3">Livello dell'acqua</option>
+            </select>
+            </div>
+        </div>
+        <div class="st">
+            <p>settimane</p>
+            <div class="inp">
+                <input type="text" id="week" name="week" min="1" max="6" value="1" oninput="choice()" />
+            </div>
+            <script src="prova.js"></script>
+        </div>
+    </nav>
+</body>
+
+</html>

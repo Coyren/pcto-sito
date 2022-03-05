@@ -1,0 +1,23 @@
+body {
+    background-color: #192063;
+    color: #f9a03f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+select {
+    color: #192063;
+    background-color: #f9a03f;
+    border-radius: 3px;
+}
+
+.gd {
+    padding-right: 14px;
+}
+
+input {
+    color: #192063;
+    background-color: #f9a03f;
+    padding: 10px;
+}
